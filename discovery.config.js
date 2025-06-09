@@ -47,10 +47,10 @@ module.exports = {
 
   // Production URLs
   storeUrl: "https://b2bfaststoreqa.vtexfaststore.com",
-  secureSubdomain: "https://secure.vtexfaststore.com/",
-  checkoutUrl: "https://secure.vtexfaststore.com/checkout",
+  secureSubdomain: "https://secure.b2bfaststore.vtexfaststore.com/",
+  checkoutUrl: "https://secure.b2bfaststore.vtexfaststore.com/checkout",
   loginUrl: "https://secure.b2bfaststore.vtexfaststore.com/api/io/login",
-  accountUrl: "https://secure.vtexfaststore.com/api/io/account",
+  accountUrl: "https://secure.b2bfaststore.vtexfaststore.com/api/io/account",
 
   previewRedirects: {
     home: '/',
