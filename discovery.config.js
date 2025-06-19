@@ -12,6 +12,8 @@ module.exports = {
 
   // Ecommerce Platform
   platform: 'vtex',
+  
+  plugins: ["@vtex/faststore-plugin-buyer-portal"],
 
   // Platform specific configs for API
   api: {
@@ -25,12 +27,12 @@ module.exports = {
   // Default session
   session: {
     currency: {
-      code: "BRL",
-      symbol: "R$",
+      code: "USA",
+      symbol: "$",
     },
-    locale: "pt-BR",
+    locale: "en-US",
     channel: '{"salesChannel":1,"regionId":""}',
-    country: "BRA",
+    country: "USA",
     deliveryMode: null,
     addressType: null,
     postalCode: null,
