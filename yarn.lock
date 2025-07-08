@@ -2684,10 +2684,10 @@
   dependencies:
     axios "^1.7.7"
 
-"@vtex/faststore-plugin-buyer-portal@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-1.1.3.tgz#711f29aed5a395554ec7cda42cbfb8bf6014d9c9"
-  integrity sha512-rd4lAHS09sMiEhmS2E+Vx+XCBiSR0Y6RKryxMR4VJjtTQXnPkZtm+nmN85SyFitEnXx01BzMPIkj3gSdM9Oj1w==
+"@vtex/faststore-plugin-buyer-portal@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-1.1.15.tgz#62456833016e0984ae26554fae94d65288994a22"
+  integrity sha512-bxlHeW0+B5krOqynSRu+7ywgus8XJ+YsNKa03tXzQx4b8nfQbuPoa1dV3ljctP1Bv6aF2uTaYbmZVpaiL+VPFw==
   dependencies:
     "@types/react-dom" "^19.0.3"
     react-dom "^19.0.0"
