@@ -1155,10 +1155,10 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore/api@^3.66.0":
-  version "3.66.0"
-  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.66.0.tgz#1157fb1d289785ec045724bc3ca3fbb510bbc290"
-  integrity sha512-7W/7PtzF7UOctibgC1PSaNSWOXMdApMMS97X5NR45sdzsq7/sJyjuDCPFL06/ugbnm1/o5UayWRRATWohLHE8w==
+"@faststore/api@^3.79.0":
+  version "3.79.0"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.79.0.tgz#7b4ce808f1f67d21e5c36f88b133e1d3081658ae"
+  integrity sha512-xXdLohb7TleGlMoyMQw4ZqO0VUEnX2tucp2IECf2EttnT1PHhfbaq7Si0Xsp+g2yoSRpIOPv/RQsdb5XurO8WQ==
   dependencies:
     "@graphql-tools/load-files" "^7.0.0"
     "@graphql-tools/schema" "^9.0.0"
@@ -1171,13 +1171,13 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@^3.65.0":
-  version "3.67.0"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.67.0.tgz#c4cddbcddeb4fade02d8cd0117c142ec134896e7"
-  integrity sha512-asINN36/xA7mN4cOcbDPckt6oC93l8GoF/k+2dCVZjRnBPCqQWOiRkU19KIGPWA1ux5HhMz1AhL2HLGFm1iC3Q==
+"@faststore/cli@^3.79.0":
+  version "3.79.0"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-3.79.0.tgz#2533bf01bcb6d9a6271b033eca242663c1b6b304"
+  integrity sha512-QBMZVqC0FAGV2UjnQuQY3hL+83ElLZFpUmVzzZVon4ZjrPwfqvBD41A5D8fPRtZdt0mb5yj+GXa7ZRGqXasyrA==
   dependencies:
     "@antfu/ni" "^0.21.12"
-    "@faststore/core" "^3.67.0"
+    "@faststore/core" "^3.79.0"
     "@inquirer/prompts" "^5.1.2"
     "@oclif/core" "^1.16.4"
     "@oclif/plugin-help" "^5"
@@ -1190,19 +1190,19 @@
     ora "5.4.1"
     path "^0.12.7"
 
-"@faststore/components@^3.65.0":
-  version "3.65.0"
-  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.65.0.tgz#6628f25be55c95e686bbfbe965458b0f3ce133af"
-  integrity sha512-7+qINuQm/69x9M4FxQ9Kv+QNzzQCSLY5nXWq3acKqzv0/hw/AGtouzfC+Kqt0vHOvuKroCo9QaSetk8fCmYVzQ==
+"@faststore/components@^3.78.0":
+  version "3.78.0"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.78.0.tgz#c94727dc2f7f7ad312a10c656f815f56467ba0f6"
+  integrity sha512-4EcphtHKmW6rrkTyua83ntCeV1O4rRl3JVNoY1fEiJ/jDJkKRVFe5n5EtLQG+x2q02dhCWg1W/c+SelEehEV1Q==
   dependencies:
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
     tabbable "^5.2.1"
 
-"@faststore/core@^3.67.0":
-  version "3.67.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.67.0.tgz#b69ee18b41139f1becf518e08467723d5970e69e"
-  integrity sha512-IHE7KTYEWGJ5uT5xaGWLaUoVFjIkgQT/8qNYfloZgUlO5mHqWn3x6iZHOQPALepxv3fZA96VAcnHv2mrsBQrzA==
+"@faststore/core@^3.79.0":
+  version "3.79.0"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-3.79.0.tgz#6f425e34c7f40199fca0d327dbd3ecd0fdf1f1cd"
+  integrity sha512-4gC6IQ2t5rAsOd+O122l6ldto+aqg1NQZMAuNa4/PvyC43Cb2ZyCgBK7vb9/C0kQpMUX5bwMUhV9M0g5a+jnFA==
   dependencies:
     "@antfu/ni" "^0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1210,11 +1210,11 @@
     "@envelop/graphql-jit" "^8.0.3"
     "@envelop/parser-cache" "^6.0.2"
     "@envelop/validation-cache" "^6.0.2"
-    "@faststore/api" "^3.66.0"
+    "@faststore/api" "^3.79.0"
     "@faststore/graphql-utils" "^3.56.1"
     "@faststore/lighthouse" "^3.56.1"
-    "@faststore/sdk" "^3.63.0"
-    "@faststore/ui" "^3.65.0"
+    "@faststore/sdk" "^3.77.2"
+    "@faststore/ui" "^3.78.0"
     "@graphql-codegen/cli" "5.0.2"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -1238,6 +1238,7 @@
     fs-extra "^10.1.0"
     graphql "^15.6.0"
     include-media "^1.4.10"
+    isomorphic-unfetch "^3.1.0"
     next "^13.5.9"
     next-seo "^6.6.0"
     postcss "^8.4.4"
@@ -1262,22 +1263,22 @@
   resolved "https://registry.yarnpkg.com/@faststore/lighthouse/-/lighthouse-3.56.1.tgz#7e26b658e78c02880d6a03b434de718cc623c5f0"
   integrity sha512-8+UaOkI3PacN2t+TpKGTivAAid0DbvxuJVNT9dhc1KAyB2uu9DxrnmlqkjVCJS3HzuYayzfBz5cgnZLKjd4KAQ==
 
-"@faststore/sdk@^3.63.0":
-  version "3.63.0"
-  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.63.0.tgz#b3613174eb97c2b470bab0b9b91b335e46372a83"
-  integrity sha512-IIuKuPMiJyyYS+uoK003LZg7iSwvhXV56slyM9C2PRzczo7fsgS30eRUwS+H9xH7KDg191xZdWUVEXnZENvg+Q==
+"@faststore/sdk@^3.77.2":
+  version "3.77.2"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.77.2.tgz#ccdb172b99e898f3ad2733a835fa8e22fc783fbf"
+  integrity sha512-6IA7A2fXviIXHiQkN8e4C33WFEM+wyQB3cLGw4+lHYFwi814G5Qcf2lhLsH+LRnJwh3odcmTWPJE7htWa8dqkA==
   dependencies:
     "@types/react" "^18.2.42"
     fast-deep-equal "^3.1.3"
     idb-keyval "^5.1.3"
     zustand "^5.0.5"
 
-"@faststore/ui@^3.65.0":
-  version "3.65.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.65.0.tgz#881816368fb484c8070b9c3f8716950e4ebe7d0d"
-  integrity sha512-R7+37mPxMiZMakOoVUdCzgyxRvAN86nE4KAs2JuWIoL/F45ALpMx+b3WC+HuwFka3Tw/VWRNvXHu88NxabpjtQ==
+"@faststore/ui@^3.78.0":
+  version "3.78.0"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.78.0.tgz#fa75ed9818cbecad439b275b2df6630dddf8df00"
+  integrity sha512-XybQhWlMCbdli4r6neYlzOTmlKSDpkIoPWZO0E7fnxeYHAnJPUjvKlrl0ZD4FryLiH6LptyJlsTPpbtTCJVjEw==
   dependencies:
-    "@faststore/components" "^3.65.0"
+    "@faststore/components" "^3.78.0"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
@@ -2687,10 +2688,10 @@
   dependencies:
     axios "^1.7.7"
 
-"@vtex/faststore-plugin-buyer-portal@^1.1.42":
-  version "1.1.42"
-  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-1.1.42.tgz#387101fcca9f1f68af2a2c5e7d81a0a5c6249bf0"
-  integrity sha512-IX3Lqh3i+b8WiJLd9S4nJ4rMWWRgP+qVWHEnWDSP2q9WvsjOfFqh4lWF6a38R7WUt2xUjJqmSOFXzqfFiquqpA==
+"@vtex/faststore-plugin-buyer-portal@^1.1.49":
+  version "1.1.68"
+  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-1.1.68.tgz#adb524a54f5f2cd17fccdfdecbda4b8c3ef2e8fe"
+  integrity sha512-LqxFa08gAteabNZmlZyB1Y15+e6PHdCbZ5WrjxaET+y51Rbtq2HRWYqqw6LtKB9Wqv71imv5XrJ47wAo70bpgQ==
   dependencies:
     "@types/react-dom" "^19.0.3"
     react-dom "^19.0.0"
