@@ -12,8 +12,6 @@ module.exports = {
   // Ecommerce Platform
   platform: "vtex",
 
-  plugins: ["@vtex/faststore-plugin-buyer-portal"],
-
   // Platform specific configs for API
   api: {
     storeId: "b2bfaststoreqa",
@@ -88,11 +86,25 @@ module.exports = {
     gtmContainerId: "GTM-1234567",
   },
 
+  localization: {
+    locales: {
+      "en-US": {
+        bindings: [
+          {
+            url: "https://b2bfaststoreqa.vtexfaststore.com",
+            salesChannel: "1",
+            isDefault: true,
+          },
+        ],
+      },
+    },
+  },
+
   experimental: {
     nodeVersion: 24,
     cypressVersion: 12,
     enableFaststoreMyAccount: true,
-    refreshToken: true,
+    refreshToken: false,
   },
 
   vtexHeadlessCms: {

@@ -11,7 +11,7 @@
     "test": "faststore test"
   },
   "dependencies": {
-    "@faststore/cli": "4.1.0",
+    "@faststore/cli": "4.2.0",
     "graphql": "^16.11.0",
     "@vtex/faststore-plugin-buyer-portal": "2.0.3",
     "react": "^18.2.0",
