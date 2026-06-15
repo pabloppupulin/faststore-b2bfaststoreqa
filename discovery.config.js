@@ -12,6 +12,8 @@ module.exports = {
   // Ecommerce Platform
   platform: "vtex",
 
+  plugins: ["@vtex/faststore-plugin-buyer-portal"],
+
   // Platform specific configs for API
   api: {
     storeId: "b2bfaststoreqa",
