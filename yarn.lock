@@ -1569,14 +1569,14 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore/cli@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-4.2.0.tgz#7eaaa8c08cadfe86bbd4a8924a36880a537291e6"
-  integrity sha512-jQ1jKCubuOjysoLsVuSLgEFypY1BZllwPCkILrWII7mXJGmjC50r8M3243nU8965XZCQ1vnTnj1mSlS1Xw2Qrw==
+"@faststore/cli@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@faststore/cli/-/cli-4.1.2.tgz#d733439075b10c758d1ddb8c14cb08f7fafa87c4"
+  integrity sha512-qI1YWROzDAjMDN70OkX9ErYhK+7sWlOO/xBTayDl50rQrH4P9m1gYKsb+mWiovMeigecyurTmsP5exxEcYy4uQ==
   dependencies:
     "@antfu/ni" "0.21.12"
     "@faststore/api" "4.1.1"
-    "@faststore/core" "4.2.0"
+    "@faststore/core" "4.1.2"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-tools/merge" "9.1.1"
     "@graphql-tools/utils" "10.10.1"
@@ -1605,10 +1605,10 @@
     react-intersection-observer "^8.32.5"
     react-swipeable "^7.0.0"
 
-"@faststore/core@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-4.2.0.tgz#8c79bcf3162a6537ef2ad651ac05385eb91edda3"
-  integrity sha512-8JLqRK4rmK8HRCyj+8xCVAdg4peQm0QuIsMLPfrYPX7JbFACKgsnW3BndHAu6TPJRoiFRCNbBDAaeqGLU2XUAQ==
+"@faststore/core@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@faststore/core/-/core-4.1.2.tgz#001ce40f27a6807830257f011c9e23365e4ff700"
+  integrity sha512-nhxc9W5eZMbC6yY/HBD8RdzQiCeHRQS2ACA5atpiuWtGCfKAtAVXPHA3GNy0QicIZcxo7/5JBoXaryNHfK3q3w==
   dependencies:
     "@antfu/ni" "0.21.12"
     "@builder.io/partytown" "^0.6.1"
@@ -1620,7 +1620,7 @@
     "@faststore/diagnostics" "4.1.1"
     "@faststore/lighthouse" "4.1.1"
     "@faststore/sdk" "4.1.1"
-    "@faststore/ui" "4.2.0"
+    "@faststore/ui" "4.1.1"
     "@graphql-codegen/cli" "6.1.1"
     "@graphql-codegen/client-preset" "4.2.6"
     "@graphql-codegen/typescript" "4.0.7"
@@ -1640,7 +1640,7 @@
     "@lhci/cli" "^0.15.1"
     "@types/react" "^18.3.27"
     "@vtex/client-cms" "^0.2.16"
-    "@vtex/client-cp" "0.6.0"
+    "@vtex/client-cp" "0.5.1"
     "@vtex/prettier-config" "1.0.0"
     autoprefixer "^10.4.0"
     cookie "^0.7.0"
@@ -1688,10 +1688,10 @@
     idb-keyval "^6"
     zustand "^5.0.5"
 
-"@faststore/ui@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-4.2.0.tgz#6d90bfb9b75901282730da7635cd5241a8a4b71c"
-  integrity sha512-1a85O7WdBHbvhAOVs0uBYvVYIyGv9v6ZL7FpcDBShXjk20Anskl4wEvsSbWvj+4FmRiVt/CM2QmJU7XgmyuKyA==
+"@faststore/ui@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-4.1.1.tgz#e385c5f39eebbfaba72ac202ffedf9e992f7e100"
+  integrity sha512-MQs9QFWhkRH63mTIqYl6d30S4e3m2jOZHZPYVDCBW+x1naMIQC5IyCq4CtR/4FlQOKBXInUt4ZhuBBh9kPo2Rw==
   dependencies:
     "@faststore/components" "4.1.1"
     include-media "^2.0.0"
@@ -4465,10 +4465,10 @@
     fetch-retry "^4.1.1"
     isomorphic-unfetch "^3.1.0"
 
-"@vtex/client-cp@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@vtex/client-cp/-/client-cp-0.6.0.tgz#25dd82e1a7f753d5b94fa5f9c7b384a694e41492"
-  integrity sha512-+ijNI8uOIB84oOSZFiEmEcjXe23sK9lwTyvyoB72y1gS7Xfqgwn93F9gzrbYjxerPNZTb8ZSlsGBLWxCx1ONBw==
+"@vtex/client-cp@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@vtex/client-cp/-/client-cp-0.5.1.tgz#af76c015bcc5589fef08a5832b04bda3d3c11de0"
+  integrity sha512-z5ooUZvOl7okcfIgXxviI4Y2TNpotbZBHhseL+AhMsyG+UxijcfqyiNDcQncWKbNmPQY6/kZgjuAh/ENaN+2CA==
   dependencies:
     axios "^1.7.7"
 
