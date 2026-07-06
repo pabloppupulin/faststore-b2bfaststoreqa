@@ -4410,11 +4410,6 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react-dom@^19.0.3":
-  version "19.1.6"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.1.6.tgz#4af629da0e9f9c0f506fc4d1caa610399c595d64"
-  integrity sha512-4hOiT/dwO8Ko0gV1m/TJZYk3y0KBnY9vzDh7W+DH17b2HFSOGgdj33dhihPeuy3l0q23+4e+hoXHV6hCC4dCXw==
-
 "@types/react@^18.3.27":
   version "18.3.31"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.31.tgz#b5e95e28ffcceab8d982f33f2eb076e17653c2a4"
@@ -4508,13 +4503,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/diagnostics-semconv/-/diagnostics-semconv-5.1.0.tgz#7669b1940f4c3a34ff23fc7ef35a2fa91164051e"
   integrity sha512-apTPplntetN0y7+A0b6+9qh7SRv5Q7Ox+bQ7e3bY84UBWM6uBrphWeHNJve9DI3H9Y8oA1jjZCtXNamiE7hiWA==
 
-"@vtex/faststore-plugin-buyer-portal@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-2.0.3.tgz#344b652d5e2baf7c68212c9da4a976824f50c2c0"
-  integrity sha512-lkvTpfF7xwNs3a9Ioh4mhHkZa/rv7aNcNooiD2IFXeHX7oDIJ8hbWPIGz3HoC1mfGKkUM/G5LFka5NAnPYv5TQ==
-  dependencies:
-    "@types/react-dom" "^19.0.3"
-    react-dom "^19.0.0"
+"@vtex/faststore-plugin-buyer-portal@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-2.0.7.tgz#f73e8129a56419c4fbe5cc2af808ed39ff03b53a"
+  integrity sha512-GnvJI6/b2DpRb1lxxiSxeTZlyVARaHtXcqFPcbtABm/pNGNDWCZoVvZFYT6OkL9Yz5nzEVS/dyT31sGEqAX9Sg==
 
 "@vtex/faststore-sdk@0.1.1-canary.5":
   version "0.1.1-canary.5"
@@ -9823,13 +9815,6 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-dom@^19.0.0:
-  version "19.1.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.1.0.tgz#133558deca37fa1d682708df8904b25186793623"
-  integrity sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==
-  dependencies:
-    scheduler "^0.26.0"
-
 react-error-boundary@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.1.4.tgz#255db92b23197108757a888b01e5b729919abde0"
@@ -10196,11 +10181,6 @@ scheduler@^0.23.0:
   integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
-
-scheduler@^0.26.0:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.26.0.tgz#4ce8a8c2a2095f13ea11bf9a445be50c555d6337"
-  integrity sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==
 
 semver-diff@^2.0.0:
   version "2.1.0"

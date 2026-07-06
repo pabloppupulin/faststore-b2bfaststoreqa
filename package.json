@@ -13,7 +13,7 @@
   "dependencies": {
     "@faststore/cli": "4.2.0",
     "graphql": "^16.11.0",
-    "@vtex/faststore-plugin-buyer-portal": "2.0.3",
+    "@vtex/faststore-plugin-buyer-portal": "2.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
