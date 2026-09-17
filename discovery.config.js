@@ -76,6 +76,10 @@ module.exports = {
     defaultLocale: 'pt-BR',
   },
 
+  contentSource: {
+    type: "CP"
+  },
+
   // E2E CI
   cypress: {
     pages: {
