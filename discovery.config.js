@@ -70,16 +70,6 @@ module.exports = {
     },
   },
 
-  // Localization  
-  localization: {
-    enabled: true,
-    defaultLocale: 'pt-BR',
-  },
-
-  contentSource: {
-    type: "CP"
-  },
-
   // E2E CI
   cypress: {
     pages: {
