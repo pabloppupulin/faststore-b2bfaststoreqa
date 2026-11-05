@@ -4259,10 +4259,10 @@
   dependencies:
     axios "^1.7.7"
 
-"@vtex/faststore-plugin-buyer-portal@2.0.30":
-  version "2.0.30"
-  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-2.0.30.tgz#caafa6ae36fe5a8504acaf51b724340054b36b0c"
-  integrity sha512-r0IIx/jArgBjuBGh0t2ShI2SrA5t8+51+kuRBQ5pCjfwJFDmT6Tuaq9yqZvRGlcye5qO/41xZ6tRGJOc4RQCFw==
+"@vtex/faststore-plugin-buyer-portal@2.0.43":
+  version "2.0.43"
+  resolved "https://registry.yarnpkg.com/@vtex/faststore-plugin-buyer-portal/-/faststore-plugin-buyer-portal-2.0.43.tgz#d8a8aae469854865804168cd845ed8d9308761ed"
+  integrity sha512-uAcks3B+NtjLy7m9SVpfrqYOKSHgd72smvSWTJ2MvY6335rgqTwLnB4VY+DKC+Snx6NWmoYf0eniC50j08IPDA==
 
 "@vtex/faststore-sdk@0.1.1-canary.5":
   version "0.1.1-canary.5"
